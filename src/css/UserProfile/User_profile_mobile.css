@@ -1,0 +1,266 @@
+@media only screen and (max-width: 800px) {
+    .userProfile__main-container {
+        height: auto !important;
+    }
+
+    .userProfile_container {
+        height: 93.7vh !important;
+        background-color: #1D2226 !important;
+    }
+
+    .user_data-table_container {
+        width: 100vw !important;
+        border-radius: 0;
+    }
+
+    .disable-scroll {
+        height: 100vh !important;
+        overflow: hidden !important;
+    }
+    
+    .userProfile_container {
+        padding-top: 0 !important;
+    }
+
+    .cover-photo_container {
+        border-radius: 0;
+    }
+    
+    /*********** PROFILE IMAGE, CAMERA ICON, FULLNAME ***********/
+    .image-textNames__container {
+        width: auto;
+        justify-content: center !important;
+        padding-bottom: 0;
+        padding-left: 0;
+        margin: auto;
+    }
+
+
+    .profilePhoto-camera_container {
+        width: 11rem;
+        margin: auto;
+    }
+    
+    .photo-icon_container {
+        padding: .45rem;
+        margin-top: -2.85rem;
+        margin-left: 7.8rem;
+    }
+    
+    .camera-icon {
+        width: 100%;
+        font-size: 1.4rem;
+        color: #fff;
+    }
+    
+    .change_cameraColor {
+        background-color: #454d55e9;
+    }
+    
+    
+    .profilePicture-container {
+        width: 11rem;
+        height: 11rem;
+    }
+    
+    .profilePicture-container:hover::before {
+        content: none;
+    }
+    
+    
+    .profilePicture-container img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    
+    .firstName-lastName-nickName_container {
+        width: auto;
+        margin-top: 0 !important;
+    }
+    
+    
+    .icon-edit:hover {
+        background: none;
+    
+    }
+    
+    .text-title_user-dataTable {
+        font-size: 2rem;
+        font-weight: 700;
+    }
+    
+    .text-nickName_user-dataTable {
+        margin: auto;
+        margin-top: -0.4rem;
+        margin-bottom: 1rem;
+    }
+    /***********************************************************/
+    
+    .text_contact-info {
+        font-size: 1.3rem;
+    }
+    
+    .contact-info_container {
+        width: 86vw;
+        position: relative;
+        padding: 1rem 0.9rem 1.8rem 0.9rem;
+        margin: auto;
+        margin-top: 5px;
+        margin-bottom: 10px;
+        border-top: none;
+        border-radius: 12px;
+        background-color: #2F3031;
+        overflow: hidden;
+    }
+
+    .contact-info_container::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: -4.5vw;
+        margin-top: -18px;
+        width: 95vw;
+        height: 1px;
+        background-color: #2F3031;
+    }
+
+    .title-edit__container {
+        height: 1.8rem;
+    }
+
+    .user-info_container {
+        height: 100%;
+        overflow: hidden;
+        overflow-y: scroll;
+    }
+    
+    .userInfo_content {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    
+    .userInfo_content > div {
+        width: 100%;
+    }
+    
+    .user-data__main-section {
+        height: 2.5rem;
+        display: flex;
+    }
+    
+    .user-data__main-section > span {
+        font-size: 1.3rem;
+    }
+    
+    .userData_container {
+        line-height: 17px;
+    }
+    
+    .userData_container h5 {
+        font-size: 1.05rem;
+        font-weight: 500;
+    }
+    
+    .userData_container span {
+        font-size: 0.9rem;
+        font-weight: 500;
+        position: relative;
+        bottom: 0.5rem;
+    }
+
+    
+    .full-picture_container span,
+    .full_coverPhoto_container span {
+        font-size: 1.8rem;
+    }
+    
+    .label_imageUpload span,
+    .file_coverPhoto span {
+        font-size: 1.6rem;
+    }
+
+    
+    .full-picture_container p,
+    .label_imageUpload p,
+    .full_coverPhoto_container p,
+    .file_coverPhoto  p {
+        font-size: 1.2rem !important;
+    }
+    
+    
+    .full_coverPhoto_container:hover,
+    .file_coverPhoto:hover {
+        background: none;
+    }
+
+    .profile_image_update_container  {
+        margin-left: -4.3rem;
+    }
+
+
+    .upload_coverPhoto_container {
+        width: 23rem;
+        padding: 0.5rem;
+        border-radius: 6px;
+        position: absolute;
+        margin-right: 0;
+        right: .5rem;
+        margin-top: -0.1rem;
+    }
+
+    .upload_coverPhoto_container::before {
+        content: "";
+        position: absolute;
+        right: .8rem !important;
+        top: -0.7rem;
+    }
+        
+    
+    .coverPhoto-icon_container {
+        padding: 0.4rem 0.8rem 0.4rem 0.8rem;
+        top: 13.5rem;
+        right: 1rem;
+        margin-left: 76.5vw;
+    }
+    
+    .text_edit-coverPhoto {
+        display: none;
+    }
+    
+    .camera-icon_coverPhoto {
+        font-size: 1.2rem;
+    }
+    
+}
+
+
+@media only screen and (min-width: 320px) and (max-width: 424px) {
+    .profile_image_update_container,
+    .upload_coverPhoto_container {
+        width: 19rem;
+        padding: .8rem;
+    }
+
+    .profile_image_update_container {
+        margin-top: .9rem;
+    }
+
+    .upload_coverPhoto_container {
+        margin-top: -0.25rem;
+    }
+    
+    .profile_image_update_container::before {
+        content: "";
+        position: absolute;
+        left: 8.5rem;
+        top: -0.9rem;
+    }
+     
+    .full-picture_container, .file,
+    .full_coverPhoto_container, .file_coverPhoto {
+        padding: 0.45rem 0 0.35rem;
+        border-radius: 5px;
+    }
+}

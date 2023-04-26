@@ -1,0 +1,35 @@
+@media only screen and (max-width: 800px) {
+    .update-image_mainContainer {
+        height: 100vh !important;
+    }
+
+    .update-image_container {
+        width: 30rem;
+    }
+
+    .image-container {
+        display: flex;
+        justify-content: center;
+        overflow: hidden;
+    }
+    
+    .title-crossButton_container button:hover {
+        background: none;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 600px) {
+
+    .update-image_container {
+        width: 90vw;
+    }
+
+    .title-crossButton_container h1 {
+        font-size: 1.3rem;
+    }
+
+    .title-crossButton_container button {
+        font-size: 1.35rem;
+        padding: 0.2rem;
+    }
+}

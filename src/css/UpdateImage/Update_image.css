@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.update-image_mainContainer {
+    position: fixed;
+}
+
+.update-image_container {
+    width: 38rem;
+    height: auto;
+    background-color: #1D2226;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0.1rem 0.15rem 0.2rem #000000cf;
+}
+
+.disable_blur {
+    filter: blur(0) !important;
+}
+
+.title-crossButton_container {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 1rem 0 1rem 0;
+    border-bottom: 1px solid #2F3031;
+}
+
+.title-crossButton_container h1 {
+    margin: auto;
+    position: relative;
+    left: 1rem;
+    color: #fff;
+    font-size: 1.4rem;
+    font-weight: 600;
+    letter-spacing: 0.01rem;
+}
+
+.title-crossButton_container button {
+    border: none;
+    font-size: 1.5rem;
+    margin-right: 1rem;
+    background: transparent;
+    border-radius: 50%;
+    padding: 0.35rem;
+    color: #fff;
+}
+
+.title-crossButton_container button:hover {
+    background-color: rgb(84, 84, 85);
+}
+
+.image-container {
+    width: 100%;
+    overflow: hidden;
+}
+
+.preview_image_container {
+    background-color: #15191b;
+}
+
+.buttonsContainer {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 1rem 0 1rem 0;
+    border-top: 1px solid #2F3031;
+}
+
+.cancelButton,
+.saveButton {
+    font-size: 0.9rem !important;
+    background: transparent;
+    border: none;
+    border-radius: 0.3rem;
+    letter-spacing: 0.02rem;
+}
+
+.cancelButton {
+    font-weight: 600;
+    padding: 0.2rem 1rem 0.2rem 1rem;
+}
+
+.saveButton {
+    color: #fff;
+    background-color: #2374E1;
+    padding: 0.2rem 2rem 0.2rem 2rem;
+    margin-right: 0.7rem;
+}
+
+.cancelButton:hover {
+    background-color: #7e7e7e3f;
+}
+
+.saveButton:hover {
+    background-color: #3581e4;
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1440px) {
+    .update-image_mainContainer {
+        height: 109vh !important;
+        position: fixed !important;
+    }
+
+    .update-image_container {
+        margin-bottom: 4rem;
+    }
+}

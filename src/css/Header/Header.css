@@ -1,0 +1,349 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: boder-box;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+.header_container {
+    width: 100%;
+    height: 3.4rem;
+    background-color: #1D2226;
+    padding: 0.8rem !important;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+
+.logoPP-container {
+    width: 55px;
+    display: flex;
+    justify-content: center;
+    margin-left: 0;
+    overflow: hidden;
+}
+
+.right-content {
+    margin-right: .2rem;
+}
+
+.searchUser_mainContainer {
+    width: 2.5rem;
+    height: 2.4rem;
+    border-radius: 20rem;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 0.5rem;
+    left: 4.85rem !important;
+    background-color: #3A3B3C;
+    transition: all 0.5s;
+    display: grid;
+    place-items: center;
+    border: 0px solid #3A3B3C;
+    box-shadow: 0px;
+}
+
+.hide-button_container {
+    border: none;
+    background: transparent;
+}
+
+.activate_search-container {
+    width: 16rem;
+    transition: all .3s;
+    border: .01rem solid #2D86FF;
+    animation: resplendence_search 1s infinite linear alternate;
+}
+
+@keyframes resplendence_search {
+    from {
+        box-shadow: 0;
+    }
+
+    to {
+        box-shadow: 0 0 11px #2D86FF;
+    }
+}
+
+.search-button {
+    width: 2.5rem;
+    height: 2.4rem;
+    font-size: 1.2rem;
+    margin-left: 0;
+    margin-top: 0;
+}
+
+.hide_iconSearch {
+   display: none;
+}
+
+.move_text {
+    padding-left: 0 !important;
+    margin-left: .9rem !important;
+    transition-duration: .2s !important;
+}
+
+.hide_text {
+    display: none !important;
+}
+
+.search-button,
+.search-input_container input,
+.close_button_search {
+    background: transparent;
+    border: none;
+    outline: none;
+}
+
+.search-button,
+.search-input_container input,
+.close_button_search,
+::placeholder {
+    color: #A4B3B8 !important;
+}
+
+
+.search-input_container input {
+    width: 75%;
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+    padding-left: 0.4rem;
+    transition-duration: .3s;
+}
+
+.close_button_search {
+    font-size: 1.2rem;
+    position: absolute;
+    right: 0.6rem;
+    top: .55rem;
+}
+
+.hide_iconClose {
+    display: none;
+}
+
+
+.logOut-button_container {
+    background-color: #464749;
+    padding: 0.4rem;
+    border-radius: 50%;
+    border: none;
+    font-size: 1.2rem;
+    color: #fff;
+    transition-duration: 0.3s;
+}
+
+.text_firstName-lastName {
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.text-nickname {
+    font-size: 0.9rem;
+    font-weight: 300;
+    font-style: Italic;
+}
+
+.profile-picture_container {
+    width: 2.4rem;
+    height: 2.4rem;
+    border-radius: 50%;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.profile-picture_container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.profile-picture_container:hover::before {
+    content: "";
+    position: absolute;
+    right: 1rem;
+    top: 0.5rem;
+    width: 2.4rem;
+    height: 2.4rem;
+    border-radius: 50%;
+    background-color: rgba(139, 139, 139, 0.359);
+}
+
+.disable_effect-background::before {
+    display: none;
+}
+
+
+.small-picture__logout-button_container {
+    width: 14rem;
+    padding: 0.35em;
+    border-radius: .5rem;
+    position: absolute;
+    right: 1rem;
+    margin-top: 1.1rem;
+    background-color: #2a3136;
+    box-shadow: -3px 6px 10px rgb(0 0 0 / 55%), 3px 6px 10px rgb(0 0 0 / 55%);
+    z-index: 50;
+}
+
+.small-picture__logout-button_container::before {
+    content: "";
+    position: absolute;
+    right: 1.2rem;
+    top: -0.8rem;
+    width: 0;
+    height: 0;
+    border-right: 0.5rem solid transparent;
+    border-top: 0.5rem solid transparent;
+    border-left: 0.5rem solid #2a3136;
+    border-bottom: 0.5rem solid #2a3136;
+    transform: rotate(270deg);
+}
+
+.logout_button-text,
+.back_to_profile_container {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 0.35rem 0.2rem 0.35rem 0.2rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.logout_button-text span {
+    color: #fff;
+    font-size: 1.4rem;
+}
+
+.logout_button-text span,
+.text-back_toProfile {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #fff;
+    letter-spacing: 0.02rem;
+    margin-bottom: 0 !important;
+    margin-left: 0.4rem;
+}
+
+
+.logout_button-text:hover,
+.back_to_profile_container:hover {
+    background-color: #5a5a5ad7;
+}
+
+.hide_backToProfile_container {
+    display: none !important;
+}
+
+.show_backToProfile_container {
+    display: block !important;
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1440px) {
+    .header_container {
+        height: 4.5rem;
+        padding: 1.2rem !important;
+    }
+    
+    
+    .logoPP-container {
+        width: 60px;
+    }
+    
+    .searchUser_mainContainer {
+        width: 3rem;
+        height: 2.9rem;
+        top: .8rem;
+        left: 5.65rem !important;
+        display: grid;
+        place-items: center;
+    }
+    
+    .activate_search-container {
+        width: 22rem;
+    }
+
+    .search-input_container input,
+    .search-input_container input::placeholder {
+        font-size: 1.2rem !important;
+    }
+    
+    .search-button {
+        width: 3rem;
+        height: 2.9rem;
+        font-size: 1.6rem;
+        margin-left: 0;
+        margin-top: 0;
+    }
+    
+    .move_text {
+        padding-left: 0 !important;
+        margin-left: 1.2rem !important;
+    }
+    
+    .logOut-button_container {
+        padding: 0.5rem;
+        font-size: 1.4rem;
+    }
+    
+    .text_firstName-lastName {
+        font-size: 1.5rem;
+    }
+    
+    .text-nickname {
+        font-size: 1.2rem;
+    }
+    
+    .profile-picture_container {
+        width: 3rem;
+        height: 3rem;
+    }
+    
+    .profile-picture_container:hover::before {
+        right: 1.4rem;
+        top: 0.75rem;
+        width: 3rem;
+        height: 3rem;
+    }
+    
+    .small-picture__logout-button_container {
+        width: 16rem;
+        padding: 0.6rem;
+        margin-top: 1rem;
+    }
+    
+    .small-picture__logout-button_container::before {
+        right: 1.5rem;
+        top: -0.95rem;
+        border-right: 0.5rem solid transparent;
+        border-top: 0.5rem solid transparent;
+        border-left: 0.5rem solid #2a3136;
+        border-bottom: 0.5rem solid #2a3136;
+    }
+    
+    .logout_button-text,
+    .back_to_profile_container {
+        padding: .5rem 0.4rem .5rem 0.4rem;
+    }
+    
+    
+    .logout_button-text span,
+    .text-back_toProfile {
+        font-size: 1.2rem;
+    }
+
+    .back_to_profile_container img {
+        width: 2.3rem !important;
+        height: 2.3rem !important;
+    }
+
+    .close_button_search {
+        font-size: 1.4rem;
+        position: absolute;
+        right: .85rem;
+        top: .75rem;
+    }    
+}
+

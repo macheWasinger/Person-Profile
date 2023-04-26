@@ -1,0 +1,275 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.userRegister_container {
+    width: 100%;
+    height: 100vh;
+    background-color: #F0F2F5;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.logoPP__style_userRegister {
+    width: 8.5rem;
+}
+
+.logoPP_video_register {
+    width: 6rem;
+    position: relative;
+    top: 1.5rem;
+    left: 15rem;
+}
+
+.register_form-container {
+    width: 25rem;
+    background-color: #ffffff;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 20%), 0 4px 8px rgb(0 0 0 / 20%);
+    margin: auto;
+}
+
+.titleRegister-closeButton__container {
+    width: 24.7rem;
+    height: 3rem;
+    display: flex;
+    align-items: start;
+}
+
+
+.subtitle-register {
+    width: 90%;
+    font-size: 1.25rem;
+    color: #1C1E21;
+    line-height: 20px;
+    position: relative;
+    bottom: 0.3rem;
+}
+
+.userRegister_subtitle {
+    line-height: 25px;
+    position: relative;
+    top: .3rem;
+    letter-spacing: 0.04rem;
+    color: #606770;
+}
+
+.userRegister_subtitle {
+    font-family: 'Cuprum', sans-serif;
+}
+
+
+.titleRegister-closeButton__container .close-button {
+    border: none;
+    background: transparent;
+    color: #1C1E21;
+    padding: 0.2rem;
+    border-radius: 50%;
+    position: relative;
+    right: 0.5rem;
+}
+
+.titleRegister-closeButton__container .close-button:hover {
+    background-color: #ebecee;
+    color: #1C1E21;
+}
+
+.title-userRegister {
+    font-family: 'Kaushan Script', cursive;
+    font-weight: 400;
+    letter-spacing: 2px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: #1C1E21;
+    font-size: 2.2rem;
+    text-shadow: 1px 2px 3px #b8b8b8;
+    position: relative;
+    left: 0.7rem;
+}
+
+
+.register_input-firstname_container,
+.register_input-lastname_container,
+.register_input-password_container,
+.register_input_confirm-password_container,
+.register_input-birthdate_container {
+    width: 48%;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 0.4rem;
+    border: 1px solid #DDDFE2;
+}
+
+
+.register_input-firstname_container input,
+.register_input-lastname_container input,
+.register_input-email_container input,
+.register_input-username_container input,
+.register_input-birthdate_container input,
+.register_input-username_container input,
+.register_input-password_container input,
+.register_input_confirm-password_container input {
+    width: 100%;
+    padding: 0.5rem;
+    margin-left: 0.4rem;
+    color: #1C1E21;
+    outline: none;
+    border: none;
+    border-radius: 0.4rem;
+}
+
+.register_input-birthdate_container input {
+    position: relative;
+    top: 0;
+    color: rgba(1, 1, 1, 0.237) !important;
+}
+
+.register_input-email_container,
+.register_input-username_container {
+    width: 100% !important;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 0.4rem;
+    border: 1px solid #DDDFE2;
+}
+
+.form_userRegister input {
+    font-size: 1rem !important;
+}
+
+.register_radio-input__container {
+    width: 48%;
+    height: 2.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 0.4rem;
+}
+
+.register_radio-input__container div input {
+    margin-left: .5rem;
+}
+
+.register_radio-input__container div span {
+    padding-left: 0.1vw;
+    font-size: 1rem;
+}
+
+.female-container,
+.male-container {
+    width: auto;
+    height: 100%;
+    background-color: #fff;
+    border-radius: .4vw;
+    padding-left: .4vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.female-container input,
+.male-container input {
+    margin-right: 0.5vw;
+    cursor: pointer;
+}
+
+.changeColor_input {
+    border: 1px solid #1C1E21;
+}
+
+.disable_changeColor_input {
+    border: 1px solid #DDDFE2;
+}
+
+
+.icon-viewer,
+.icon-close {
+    cursor: pointer;
+    font-size: 1.2rem;
+    color: rgba(1, 1, 1, 0.4);
+    margin-right: 0.6vw;
+}
+
+::placeholder,
+.female-container span,
+.male-container span,
+.register_input-birthdate_container input
+{
+    font-size: 0.95rem !important;
+    font-weight: 500;
+    color: rgba(1, 1, 1, 0.4) !important;
+    letter-spacing: 0.02rem;
+}
+
+.change_color_input {
+    border: 1px solid #1C1E21;
+}
+
+.userRegister_button {
+    width: 100%;
+    height: 2.8rem;
+    background-image: linear-gradient(90deg, #1C1E21, #4a545c);
+    display: grid;
+    place-items: center;
+    border: none;
+    border-radius: 0.4rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-shadow: 1px 2px 3px #000;
+    letter-spacing: 1px;
+    color: #fff;
+    transition-duration: 0.3s !important;
+    margin: auto;
+    margin-top: 0.9rem;
+}
+
+.userRegister_button:hover {
+    color: #fff;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2),
+    inset 50px 50px 50px #1C1E21;
+    transition-duration: 0.3 !important;
+}
+
+.text-privacy {
+    width: 90%;
+    color: #606770;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    margin-top: 0.5rem;
+    position: relative;
+    top: 0.75rem;
+}
+
+.userRegister_container footer {
+    background-color: #ffffff;
+    height: 3rem;
+    font-size: 1rem;
+    letter-spacing: 0.03rem;
+    color: #1C1E21;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.register_input-firstname_container input,
+.register_input-lastname_container input,
+.register_input-email_container input,
+.register_input-username_container input,
+.register_input-birthdate_container input,
+.register_input-username_container input,
+.register_input-password_container input,
+.register_input_confirm-password_container input,
+.register_radio-input__container div span,
+.userRegister_button,
+.userRegister_container footer {
+    font-family: 'Cuprum', sans-serif;
+}

@@ -1,0 +1,509 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.full-image_container_coverPhoto {
+    width: 74%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    overflow: auto !important;
+}
+
+.full_image_coverPhoto {
+    width: 66%;
+    height: 100vh;
+    object-fit: contain;
+    margin-left: 1.5rem;
+}
+
+.comments_container_coverPhoto {
+    width: 21rem;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #1D2226;
+}
+
+.icon-pp_container_coverPhoto {
+    display: flex;
+    justify-content: flex-start;
+    padding: 1rem 0.5rem 0 0.8rem;
+}
+
+.main-container_sectionComments-boxMSG_coverPhoto {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    overflow: hidden !important;
+}
+
+.comments_main-container_coverPhoto {
+    width: 96%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    margin-top: 0.5rem;
+    overflow: hidden;
+}
+
+.rendered-comment__container_coverPhoto {
+    width: 90%;
+}
+
+.hideComment_coverPhoto {
+    opacity: .4;
+}
+
+.enable_scroll-y_coverPhoto {
+    overflow-y: scroll !important;
+    height: auto;
+}
+
+.image-firstName-lastName__container_coverPhoto {
+    width: 100%;
+    padding: 0.8rem 0.3rem 0.5rem;
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+.profile-image_container_coverPhoto button {
+    width: 2.4rem;
+    height: 2.4rem;
+    background: transparent !important;
+    border: none !important;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.profile-image_container_coverPhoto button:hover::before {
+    content: "";
+    position: absolute;
+    margin-left: 0;
+    margin-top: 0;
+    width: 2.4rem;
+    height: 2.4rem;
+    border-radius: 50%;
+    opacity: 0.5;
+    background-color: rgba(139, 139, 139, 0.359);
+}
+
+.fullname-currentDate__container_coverPhoto {
+    height: 2.1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.fullname-currentDate__container_coverPhoto button {
+    background: transparent;
+    border: none;
+}
+
+.fullname-currentDate__container_coverPhoto button:hover {
+    text-decoration: underline 1px white;
+}
+
+.user-fullname_text_coverPhoto {
+    font-size: 1rem;
+    color: #E0E2E6;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+
+.showComment-currentDate__container_coverPhoto {
+    width: 91%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.text-current_date_coverPhoto,
+.text-show_comment_coverPhoto {
+    font-size: .8rem;
+    letter-spacing: 0.02rem;
+    color: #818283;
+}
+
+.text-show_comment_coverPhoto {
+    background: transparent;
+    border: none;
+}
+
+.reactions_msgs-box__content_coverPhoto {
+    width: 100%;
+    margin-top: 2.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.reactions-container_coverPhoto {
+    width: 91%;
+    border-top: 1px solid #3E4042;
+    border-bottom: 1px solid #3E4042;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.2rem 0 0.25rem 0;
+}
+
+.reactions-container_coverPhoto button {
+    padding: 0.25rem 0.85rem 0.25rem 0.85rem;
+    background: transparent;
+    border: none;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+}
+
+
+.cant-likes_maincontainer_coverPhoto {
+    width: 91%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.fullname-userLikes_container_coverPhoto {
+    position: absolute;
+    background-color: #cacacbda;
+    padding: 0.5rem;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.35rem;
+    margin-left: -1.5rem;
+    color: #050505;    
+}
+
+.title_I-like_coverPhoto {
+    font-size: 0.95rem;
+    font-weight: 600;
+}
+
+.text_like-fullname_coverPhoto {
+    font-size: 0.72rem;
+    line-height: 15px;
+}
+
+.icon-cantLikes_content_coverPhoto {
+    margin-left: 1.3vw;
+    margin-bottom: 0.25rem;
+}
+
+.icon-like_coverPhoto {
+    padding: 0.15rem;
+    border-radius: 50%;
+    font-size: 0.65rem;
+    background-color: #0470E4;
+    color: #fff;
+}
+
+.text-cantLikes_coverPhoto {
+    color: #8F9195;
+    font-size: 0.85rem;
+    margin-left: 0.25rem;
+}
+
+.like-button_coverPhoto span,
+.comment-button_coverPhoto span {
+    color: #B0B3B8;
+}
+
+.like-button_coverPhoto span {
+    font-size: 1.25rem;
+}
+
+.comment-button_coverPhoto span {
+    font-size: 1.1rem;
+}
+
+.comment-button_coverPhoto:hover,
+.like-button_coverPhoto:hover {
+    background-color: #3a3b3c;
+}
+
+.text-like_coverPhoto,
+.text-comment_coverPhoto {
+    font-size: 0.85rem !important;
+    font-weight: 600;
+    color: #B0B3B8;
+    margin-left: 0.3rem;
+}
+
+.change-color_button_coverPhoto, 
+.change-color_text_coverPhoto {
+    color: #2D86FF !important;
+}
+
+.form_image-input__container_coverPhoto {
+    width: 91%;
+    display: flex;
+    align-items: flex-start;
+    margin: auto;
+    margin-top: 0.7rem;
+    margin-bottom: 2rem;
+}
+
+.form_image-input__container_coverPhoto textarea {
+    width: 82%;
+    background-color: #3a3b3ce2 !important;
+    color: #70a2a2;
+    border: none;
+    outline: none;
+    margin-left: 0.5vw;
+    padding: 0.3rem 0.5rem;
+    border-radius: 16px;
+}
+
+.form_image-input__container_coverPhoto textarea::placeholder {
+    letter-spacing: 0.02rem;
+    color: #9a9b9b;
+}
+
+.small_profile_photo_coverPhoto {
+    background: transparent;
+    margin-top: .5rem;
+    margin-left: 0.3rem;
+    border: none;
+}
+
+.small_profile_photo_coverPhoto:hover::before {
+    content: "";
+    position: absolute;
+    margin-left: 0;
+    margin-top: 0;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    opacity: 0.5;
+    background-color: rgba(139, 139, 139, 0.359);
+}
+
+tbody tr {
+    display: flex !important;
+    align-items: center !important;
+    overflow-x: none;
+}
+
+.profilePhoto-comment_content_coverPhoto {
+    display: flex;
+    align-items: flex-start;
+}
+
+.fullname-comment__container_coverPhoto {
+    padding: 0.35rem 0.6rem 0.3rem 0.6rem;
+    border-radius: 16px;
+    margin-left: 0.5vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #3a3b3ce2;
+}
+
+.fullname-content_coverPhoto,
+.comment-content_coverPhoto {
+    color: #E4E6EB;
+}
+
+.fullname-content_coverPhoto {
+    font-size: 0.8rem;
+    font-weight: 600;
+    line-height: 15px;
+}
+
+.fullname-msg_content_coverPhoto {
+    display: flex;
+    flex-direction: column;
+    align-items: self-end;
+}
+
+.bottomText-comment_currentDate_coverPhoto {
+    color: #B0B3B8;
+    font-size: 0.7rem;
+    margin-right: 0.5rem;
+}
+
+.comment-content_coverPhoto {
+    font-size: 0.9rem;
+    line-height: 18px;
+}
+
+.small_profile_photo_coverPhoto img,
+.profilePhoto-comment_content_coverPhoto img {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+}
+
+.smallProfilePicture_comment_coverPhoto {
+    margin-left: 0.3rem;
+    background: transparent;
+    border: none;
+}
+
+.smallProfilePicture_comment_coverPhoto:hover::before {
+    content: "";
+    position: absolute;
+    margin-left: 0;
+    margin-top: 0;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    opacity: 0.5;
+    background-color: rgba(139, 139, 139, 0.359);
+}
+
+.form-buttons__container_coverPhoto {
+    display: flex;
+    align-items: center;
+}
+
+.comment-buttons_container_coverPhoto {
+    margin-left: 0.3rem;
+    display: flex;
+    align-items: center;
+}
+
+.edit-button_msg_coverPhoto {
+    font-size: 1.1rem;
+}
+
+.save-button_msg_coverPhoto,
+.cancel-button_msg_coverPhoto {
+    font-size: 1.2rem;
+}
+
+.save-button_msg_coverPhoto,
+.edit-button_msg_coverPhoto,
+.cancel-button_msg_coverPhoto {
+    width: 1.9rem;
+    height: 1.9rem;
+    border-radius: 50%;
+    background: transparent;
+    border: none;
+    display: grid;
+    place-items: center;
+    color: #B0B3B8;
+}
+
+.comment-buttons_container_coverPhoto button:hover {
+    background-color: #3a3b3ce2;
+}
+
+.icon-moreOptions_container_coverPhoto {
+    margin-left: 0.3rem;
+    padding: 0.5rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.icon-moreOptions_container_coverPhoto:hover {
+    background-color: #3a3b3ce2;
+}
+
+.optionsButton-moreOptionsComment__container_coverPhoto {
+    display: flex;
+    align-items: center;
+}
+
+.icon-moreOptions_coverPhoto {
+    background: transparent;
+    border: none;
+    font-size: 0.9rem;
+    color: #E4E6EB;
+}
+
+.more_options__container_coverPhoto {
+    width: 100%;
+    height: 100vh;
+    position: absolute !important;
+    left: 0 !important;
+    top: 0 !important;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.buttons-moreOptions_container_coverPhoto {
+    width: 20rem;
+    padding: 0.35rem;
+    border-radius: 12px;
+    background-color: #2a3136;
+}
+
+.deteleButton_comment_coverPhoto,
+.editButton_comment_coverPhoto,
+.hideButton_comment_coverPhoto {
+    width: 100%;
+    padding: 0.6rem 0.7rem 0.6rem 0.7rem;
+
+    border-radius: 5px;
+    display: flex;
+    justify-content: flex-start;
+    background: transparent;
+    border: none;
+    color: #fff;
+    font-size: 0.87rem;
+}
+
+.deteleButton_comment_coverPhoto:hover,
+.editButton_comment_coverPhoto:hover,
+.hideButton_comment_coverPhoto:hover {
+    background-color: #5a5a5ab7;
+}
+
+.deteleButton_comment_coverPhoto > span {
+    font-size: 1.2rem;
+}
+
+.editButton_comment_coverPhoto > span,
+.hideButton_comment_coverPhoto > span {
+    font-size: 1.1rem;
+}
+
+.deteleButton_comment_coverPhoto > span,
+.editButton_comment_coverPhoto > span,
+.hideButton_comment_coverPhoto > span {
+    margin-right: 0.5rem;
+}
+
+.close_icon_coverPhoto {
+    background: transparent;
+    border-radius: 50%;
+    padding: 0.3rem;
+    border: none;
+    color: #fff;
+    position: absolute;
+    left: 1rem;
+    top: 0.5rem;
+}
+
+.close_icon_coverPhoto:hover {
+    background-color: rgba(128, 128, 128, 0.2);
+    border-radius: 50%;
+}
+
+
+@media only screen and (min-width: 801px) and (max-width: 1440px) {
+    .full_image_coverPhoto {
+        width: 68%;
+        margin-left: 0;
+    }
+
+    .comments_container_coverPhoto {
+        width: 26rem;
+    }
+}

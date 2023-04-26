@@ -1,0 +1,147 @@
+@media only screen and (max-width: 800px) {
+    .video-formLogin_container {
+        width: 100% !important;
+        height: auto!important;
+    }
+
+    .logoPP-text-subtitle_login {
+        margin-left: 1.5rem;
+        margin-bottom: 0 !important;
+    }
+
+    .logoPP__style_login {
+        width: 5.5rem !important;
+    }
+
+    .form-container {
+        margin-right: 1.5rem;
+    }
+
+    .form_login {
+        width: 18rem !important;
+    }
+    
+    .title-welcome {
+        font-size: 1.4rem;
+    }
+
+    .subtitle-login {
+        font-size: 1.1rem;
+        line-height: 20px;
+    }
+
+    .login-button_container {
+        height: 2.6rem;
+        margin-top: 0;
+        position: relative;
+        top: 0.8rem;
+    }
+    
+    .login-button_container:hover {
+        box-shadow: none;
+    }
+
+    .login-button_container,
+    .register_button {
+        font-size: 1rem;
+    }
+
+    .register__main-container {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        top: 0.3rem;
+    }
+    
+    .register_button:hover {
+        color: #fff;
+        box-shadow: none;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 590px) {
+
+    .video-formLogin_container {
+        width: 100% !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly !important;
+    }
+
+    .logoPP-text-subtitle_login {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+        margin-bottom: 0 !important;
+    }
+
+    
+    .title-welcome {
+        font-size: 1.25rem;
+        position: relative;
+        top: 0.3rem;
+        margin-top: 0.6rem;
+    }
+
+    .subtitle-login {
+        font-size: 1rem;
+        line-height: 20px;
+        margin-top: .5rem;
+        position: relative;
+        top: 0.2rem;
+    }
+    
+
+    .form-container {
+        width: 17.5rem;
+        margin-right: 0;
+        margin-bottom: 1.5rem;
+    }
+
+    .form_login {
+        width: 16rem !important;
+    }
+
+    .title-userLogin {
+        font-size: 1.9rem;
+    }
+
+    .login-button_container {
+        margin-top: 0;
+        position: relative;
+        top: 0.8rem;
+    }
+    
+    .login-button_container:hover {
+        box-shadow: none;
+    }
+
+    .register__main-container {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        top: 0.3rem;
+    }
+
+    .text-register {
+        font-size: .85rem;
+    }
+
+    .login-button_container,
+    .register_button {
+        font-size: .9rem;
+    }
+    
+    
+    .register_button:hover {
+        color: #fff;
+        box-shadow: none;
+    }
+    
+    .login_main-container footer {
+        font-size: .85rem;
+    }
+}

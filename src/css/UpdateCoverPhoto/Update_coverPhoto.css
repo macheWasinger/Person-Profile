@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.update-coverPhoto_mainContainer {
+    position: fixed;
+}
+
+.update-coverPhoto_container {
+    width: 45rem;
+    height: 40rem;
+    background-color: #1D2226;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0.1rem 0.15rem 0.2rem #000000cf;
+}
+
+.disable_blur {
+    filter: blur(0) !important;
+}
+
+.title-crossButton_container_coverPhoto {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 1rem 0 1rem 0;
+    border-bottom: 1px solid #2F3031;
+}
+
+.title-crossButton_container_coverPhoto h1 {
+    margin: auto;
+    position: relative;
+    left: 1rem;
+    color: #fff;
+    font-size: 1.4rem;
+    font-weight: 600;
+    letter-spacing: 0.01rem;
+}
+
+.title-crossButton_container_coverPhoto button {
+    border: none;
+    font-size: 1.5rem;
+    margin-right: 1rem;
+    background: transparent;
+    border-radius: 50%;
+    padding: 0.35rem;
+    color: #fff;
+}
+
+.title-crossButton_container_coverPhoto button:hover {
+    background-color: rgb(84, 84, 85);
+}
+
+.image-container_coverPhoto {
+    width: 100%;
+    height: 28rem;
+    background-color: #000;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    position: relative;
+    bottom: 2em;
+}
+
+.image-container_coverPhoto img {
+    width: 100%;
+    height: 70%;
+    object-fit: cover;
+}
+
+.buttonsContainer_coverPhoto {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 1rem 0 1rem 0;
+    border-top: 1px solid #2F3031;
+}
+
+.cancelButton_coverPhoto,
+.saveButton_coverPhoto {
+    font-size: 0.9rem !important;
+    background: transparent;
+    border: none;
+    border-radius: 0.3rem;
+    letter-spacing: 0.02rem;
+}
+
+
+
+.cancelButton_coverPhoto {
+    font-weight: 600;
+    padding: 0.2rem 1rem 0.2rem 1rem;
+}
+
+.saveButton_coverPhoto {
+    color: #fff;
+    background-color: #2374E1;
+    padding: 0.2rem 2rem 0.2rem 2rem;
+    margin-right: 0.7rem;
+}
+
+.cancelButton_coverPhoto:hover {
+    background-color: #7e7e7e3f;   
+}
+
+.saveButton_coverPhoto:hover {
+    background-color: #3581e4;
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1440px) {
+    .update-coverPhoto_mainContainer {
+        height: 109vh !important;
+        position: fixed !important;
+    }
+
+    .update-coverPhoto_container {
+        margin-bottom: 4rem;
+    }
+}

@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.login_main-container {
+    width: 100%;
+    height: 100vh;
+    background-color: #F0F2F5;
+}
+
+.logoPP__style_login {
+    width: 8.5rem;
+}
+
+.form-container {
+    background-color: #ffffff;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 20%), 0 4px 8px rgb(0 0 0 / 20%);
+}
+
+.title-userLogin {
+    font-family: 'Kaushan Script', cursive;
+    font-weight: 400;
+    letter-spacing: 2px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: #1C1E21;
+    font-size: 2.2rem;
+    text-shadow: 1px 2px 3px #b8b8b8;
+}
+
+.icon-person_container {
+    width: 5.5rem;
+    height: 5.5rem;
+    border-radius: 50%;
+    border: 0.2rem solid #DDDFE2;
+    background-color: #DDDFE2;
+    color: #fff;
+    overflow: hidden;
+}
+
+.icon-person_container span {
+    font-size: 7rem;
+    margin-top: 1rem;
+}
+
+.input-password_container,
+.input-username_container {
+    width: 100% !important;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 0.4rem;
+    border: 1px solid #DDDFE2;
+}
+
+.input-password_container input,
+.input-username_container input {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 0.95rem;
+    color: #1C1E21;
+    margin-left: 0.4rem;
+    outline: none;
+    border: none;
+    border-radius: 0.4rem;
+}
+
+.changeColor_input {
+    border: 1px solid #1C1E21;
+}
+
+.disable_changeColor_input {
+    border: 1px solid #DDDFE2;
+}
+
+.icon-viewer,
+.icon-close {
+    cursor: pointer;
+    font-size: 1.2rem;
+    color: rgba(1, 1, 1, 0.4);
+    margin-right: 0.6rem;
+}
+
+
+
+::placeholder {
+    font-weight: 500;
+    color: rgba(1, 1, 1, 0.4);
+    letter-spacing: 0.02rem;
+}
+
+
+.login-button_container {
+    width: 100%;
+    height: 2.8rem;
+    background-image: linear-gradient(90deg, #1C1E21, #4a545c);
+    display: grid;
+    place-items: center;
+    border: none;
+    border-radius: 0.4rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-shadow: 1px 2px 3px #000;
+    letter-spacing: 1px;
+    color: #fff;
+    transition-duration: 0.3s !important;
+    margin: auto;
+    margin-top: 0.9rem;
+}
+
+.login-button_container:hover {
+    color: #fff;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2),
+    inset 50px 50px 50px #1C1E21;
+    transition-duration: 0.3 !important;
+}
+
+
+.title-welcome,
+.subtitle-login {
+    color: #1C1E21;
+}
+
+.subtitle-login {
+    font-size: 1.25rem;
+    position: relative;
+    bottom: 0.5rem;
+}
+
+.register__main-container {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.text-register {
+    font-weight: 500;
+    color: #1C1E21;
+    position: relative;
+    top: 0.5rem;
+}
+
+.register_button {
+    padding: 0.35rem 0.8rem 0.35rem 0.8rem;
+    background-image: linear-gradient(90deg, #1C1E21, #4a545c);
+    display: grid;
+    place-items: center;
+    border: none;
+    border-radius: 0.4rem;
+    font-size: 1rem;
+    font-weight: 600;
+    text-shadow: 1px 2px 3px #000;
+    letter-spacing: 1px;
+    color: #fff;
+    transition-duration: 0.3s !important;
+}
+
+.register_button:hover {
+    color: #fff;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2),
+    inset 50px 50px 50px #1C1E21;
+    transition-duration: 0.3 !important;
+}
+
+.login_main-container footer {
+    background-color: #ffffff;
+    width: 100%;
+    height: 3rem;
+    font-size: 1rem;
+    letter-spacing: 0.03rem;
+    color: #1C1E21;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login_main-container footer,
+.title-welcome,
+.subtitle-login,
+.text-register,
+.input-password_container input,
+.input-username_container input,
+.login-button_container,
+.register_button {
+    font-family: 'Cuprum', sans-serif;
+}

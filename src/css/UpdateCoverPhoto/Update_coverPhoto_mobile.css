@@ -1,0 +1,43 @@
+@media only screen and (max-width: 800px) {
+    .update-coverPhoto_mainContainer {
+        height: 100vh !important;
+    }
+
+    .update-coverPhoto_container {
+        width: 35rem;
+        height: 30rem;
+    }
+
+    .image-container_coverPhoto {
+        height: 26rem;
+        bottom: 0;
+    }
+
+    
+    .title-crossButton_container_coverPhoto button:hover {
+        background: none;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 600px) {
+    .update-coverPhoto_container {
+        width: 90vw;
+        height: 25rem;
+    }
+
+    .title-crossButton_container_coverPhoto h1 {
+        font-size: 1.3rem;
+    }
+
+    .title-crossButton_container_coverPhoto button {
+        font-size: 1.35rem;
+        padding: 0.2rem;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 350px) {
+    .image-container_coverPhoto img {
+        object-fit: contain;
+    }
+    
+}

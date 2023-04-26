@@ -1,0 +1,276 @@
+@media only screen and (max-width: 800px) {
+    .full-picture_mainContainer_coverPhoto {
+        width: 100vw !important;
+    }
+
+    .container_image-comments_coverPhoto {
+        height: auto !important;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .full-image_container_coverPhoto {
+        width: 24rem;
+        height: 45vh;
+        margin: auto;
+    }
+
+    .full_image_coverPhoto {
+        width: 24rem;
+        height: auto;
+        margin-left: 0;
+    }
+    
+    .comments_container_coverPhoto {
+        width: 100%;
+        height: 55vh !important;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        background-color: #1D2226;
+    }
+
+    .reactions_msgs-box__content_coverPhoto {
+        width: 100%;
+        margin-top: 1.5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    
+    .reactions-container_coverPhoto,
+    .cant-likes_maincontainer_coverPhoto {
+        width: 96%;
+        padding-left: .1rem;
+    }
+
+    .icon-cantLikes_content_coverPhoto {
+        margin-left: 0;
+    }
+
+    .reactions-container_coverPhoto {
+        padding-left: 8vw;
+        padding-right: 8vw;
+    }
+    
+    .reactions-container_coverPhoto button {
+        padding: .4rem 12vw .4rem 12vw;
+    }
+
+
+    .like-button_coverPhoto .like-icon_coverPhoto {
+        font-size: 1.5rem !important;
+    }
+
+    .like-button_coverPhoto .text-like_coverPhoto,
+    .text-comment_coverPhoto {
+        font-size: 1rem !important;
+    }
+
+    .comment-icon_coverPhoto {
+        font-size: 1.35rem !important;
+    }
+
+    .text-like_coverPhoto,
+    .text-comment_coverPhoto {
+        margin-left: .4rem;
+    }
+
+    .main-container_sectionComments-boxMSG_coverPhoto {
+        width: 100%;
+        justify-content: center;
+    }
+    
+    .rendered-comment__container_coverPhoto {
+        width: 100%;
+    }
+
+    .enable_scroll-y {
+        height: 27vw;
+    }
+
+    .fullname-msg_content_coverPhoto {
+        margin-left: .4rem;
+    }
+
+    .fullname-comment__container_coverPhoto {
+        padding: .5rem .65rem .5rem .65rem;
+        border-radius: 16px;
+        margin-left: 0;
+    }
+
+    .msgs-box_container_coverPhoto {
+        width: 90vw;
+        margin-left: 0;
+    }
+
+    .form-buttons__container_coverPhoto {
+        width: 94%;
+        height: 4rem;
+    }
+
+    .form-buttons__container_coverPhoto textarea {
+        width: 95%;
+        height: 5rem;
+        padding: 0.4rem 0.75rem;
+        margin-top: 1rem;
+        margin-left: .6rem;
+    }
+
+    .form_image-input__container_coverPhoto {
+        width: 97%;
+        margin-left: .87rem;
+    }
+
+    .more_options__container_coverPhoto {
+        height: 100vh;
+        z-index: 1;
+    }
+    
+    .buttons-moreOptions_container_coverPhoto {
+        padding: 0.8rem;
+    }
+
+    .deteleButton_comment_coverPhoto,
+    .editButton_comment_coverPhoto,
+    .hideButton_comment_coverPhoto {
+        padding: 0.6rem 0.7rem 0.6rem 0.7rem;
+        font-size: 1rem;
+    }
+
+    .deteleButton_comment_coverPhoto:hover,
+    .editButton_comment_coverPhoto:hover,
+    .hideButton_comment_coverPhoto:hover {
+        background: none;
+    }
+
+    .deteleButton_comment_coverPhoto > span {
+        font-size: 1.5rem;
+    }
+
+    .editButton_comment_coverPhoto > span,
+    .hideButton_comment_coverPhoto > span {
+        font-size: 1.4rem;
+    }    
+
+    .fullname-userLikes_container_coverPhoto {
+        margin-left: -0.5rem;
+    }
+    
+    .title_I-like_coverPhoto {
+        font-size: 1.1rem;
+    }
+    
+    .text_like-fullname_coverPhoto {
+        font-size: 0.8rem;
+        line-height: 15px;
+    }
+    
+    .icon-cantLikes_content_coverPhoto {
+        margin-bottom: 0.3rem;
+    }
+    
+    .icon-like_coverPhoto {
+        font-size: .9rem;
+    }
+    
+    .text-cantLikes_coverPhoto {
+        font-size: 1rem;
+    }
+
+    .small_profile_photo_coverPhoto {
+        margin-left: 0;
+        position: relative;
+        left: .13rem;
+        bottom: .4rem;
+    }
+
+    .small_profile_photo_coverPhoto img,
+    .profilePhoto-comment_content_coverPhoto img {
+        width: 2.1rem;
+        height: 2.1rem;
+    }
+
+    .smallProfilePicture_comment_coverPhoto {
+        margin-left: 0rem;
+    }
+
+    .smallProfilePicture_comment_coverPhoto:hover::before {
+        display: none;
+    }
+
+    .close_icon_coverPhoto {
+        left: 1vw;
+        top: 0;
+    }
+    
+    .close_icon_coverPhoto:hover {
+        background: none;
+    }
+
+}
+
+@media only screen and (min-width: 426px) and (max-width: 800px) {
+    .form-buttons__container_coverPhoto {
+        width: 94%;
+    }
+
+    .reactions-container_coverPhoto {
+        padding-left: 5vw;
+        padding-right: 5vw;
+    }
+    
+    .reactions-container_coverPhoto button {
+        padding: .4rem 12vw .4rem 12vw;
+    }
+
+    .enable_scroll-y {
+        height: 15vw !important;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 425px) {
+
+    .full-image_container_coverPhoto {
+        width: 19rem;
+        margin: auto;
+    }
+
+    .full_image_coverPhoto {
+        width: 19rem;
+    }
+
+    .image-firstName-lastName__container_coverPhoto {
+        padding: 0.8rem 0 0.5rem;
+    }
+
+    .reactions-container_coverPhoto {
+        padding-left: 2vw;
+        padding-right: 2vw;
+    }
+    
+    .reactions-container_coverPhoto button {
+        padding: .4rem 9.5vw .4rem 9.5vw;
+    }
+
+    .rendered-comment__container_coverPhoto,
+    .msgs-box_container_coverPhoto {
+        margin-left: .15rem;
+    }
+
+    .close_icon_coverPhoto {
+        top: .3rem;
+        left: 0.8vw;
+    }
+
+    .form_image-input__container_coverPhoto {
+        margin-left: .2rem;
+    }
+
+    .buttons-moreOptions_container_coverPhoto {
+        width: 18rem;
+    }
+    
+}

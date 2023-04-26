@@ -1,0 +1,174 @@
+@media only screen and (max-width: 800px) {
+    .video-formRegister_container {
+        width: 100% !important;
+        height: auto !important;
+    }
+
+    .logoPP-text-subtitle_userRegister {
+        margin-left: 1.5rem;
+        margin-bottom: 0 !important;
+    }
+
+    .logoPP__style_userRegister {
+        width: 5.5rem;
+    }
+
+    .register_form-container {
+        width: 20rem;
+        margin-right: 1.5rem;
+    }
+
+    .form_userRegister {
+        width: 18rem !important;
+    }
+
+    .register_input-firstname_container input,
+    .register_input-lastname_container input,
+    .register_input-email_container input,
+    .register_input-username_container input,
+    .register_input-birthdate_container input,
+    .register_input-username_container input,
+    .register_input-password_container input,
+    .register_input_confirm-password_container input {
+        padding-left: .2rem;
+    }
+
+    .register_input-birthdate_container input {
+        color: rgba(1, 1, 1, 0.237) !important;
+    }
+
+    .register_radio-input__container div input {
+        margin-left: .3rem;
+    }
+
+    .female-container span,
+    .male-container span {
+        color: rgba(1, 1, 1, 0.237) !important;
+    }
+
+    .title-userRegister {
+        font-size: 2rem;
+        left: 0;
+    }
+    
+    .title-welcome {
+        font-size: 1.4rem;
+    }
+
+    .subtitle-register{
+        font-size: 1.1rem;
+        line-height: 20px;
+    }
+
+    .titleRegister-closeButton__container .close-button {
+        right: 2.7rem;
+    }
+
+    .titleRegister-closeButton__container .close-button:hover {
+        background: none !important;
+    }
+
+    .userRegister_button {
+        margin-top: 0 !important;
+    }
+    
+    .userRegister_button:hover {
+        box-shadow: none;
+    }
+
+    .text-privacy {
+        top: 0.4rem;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 590px) {
+
+    .video-formRegister_container {
+        width: 100% !important;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .logoPP-text-subtitle_userRegister {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+        margin-bottom: 0 !important;
+    }
+
+    .title-welcome {
+       display: none;
+    }
+
+    .subtitle-register {
+        width: auto;
+        font-size: 1rem;
+        line-height: 20px;
+        top: 0;
+    }
+    
+    .register_form-container {
+        width: 17.5rem;
+        margin-right: none !important;
+        margin: auto !important;
+        position: relative;
+        bottom: 0.5rem;
+    }
+
+    .form_userRegister {
+        width: 16rem !important;
+    }
+
+    .title-userRegister {
+        font-size: 1.9rem;
+    }
+
+        
+    .register_input-firstname_container input,
+    .register_input-lastname_container input,
+    .register_input-email_container input,
+    .register_input-username_container input,
+    .register_input-birthdate_container input,
+    .register_input-username_container input,
+    .register_input-password_container input,
+    .register_input_confirm-password_container input {
+        padding-left: .1rem;
+    }
+
+    .register_radio-input__container div input {
+        margin-left: .3rem;
+    }
+
+    .titleRegister-closeButton__container .close-button {
+        right: 3.9rem;
+    }
+
+    .titleRegister-closeButton__container .close-button:hover {
+        background: none !important;
+    }
+
+    .userRegister_button {
+        margin-top: 0 !important;
+    }
+    
+    .userRegister_button:hover {
+        box-shadow: none;
+    }
+
+    .text-privacy {
+        top: 0.4rem;
+    }
+
+    .userRegister_button {
+        margin-top: 0;
+    }
+    
+    .userRegister_button:hover {
+        box-shadow: none;
+    }
+    
+    .userRegister_container footer {
+        font-size: .85rem;
+    }
+}

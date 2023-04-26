@@ -1,0 +1,274 @@
+@media only screen and (max-width: 800px) {
+    .full-picture_mainContainer {
+        width: 100vw !important;
+    }
+
+    .container_image-comments {
+        height: auto !important;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .full-image_container {
+        width: 17rem;
+        height: 45vh;
+        margin: auto;
+    }
+
+    .full_image {
+        width: 17rem;
+        height: auto;
+        margin-left: 0;
+    }
+
+    
+    .comments_container {
+        width: 100%;
+        height: 55vh !important;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        background-color: #1D2226;
+    }
+
+    .reactions_msgs-box__content {
+        width: 100%;
+        margin-top: 1.5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    
+    .reactions-container,
+    .cant-likes_maincontainer {
+        width: 96%;
+        padding-left: .1rem;
+    }
+
+    .icon-cantLikes_content {
+        margin-left: 0;
+    }
+
+    .reactions-container {
+        padding-left: 8vw;
+        padding-right: 8vw;
+    }
+    
+    .reactions-container button {
+        padding: .4rem 12vw .4rem 12vw;
+    }
+
+
+    .like-button .like-icon {
+        font-size: 1.5rem !important;
+    }
+
+    .like-button .text-like,
+    .text-comment {
+        font-size: 1rem !important;
+    }
+
+    .comment-icon {
+        font-size: 1.35rem !important;
+    }
+
+    .text-like,
+    .text-comment {
+        margin-left: .4rem;
+    }
+
+    .main-container_sectionComments-boxMSG {
+        width: 100%;
+        justify-content: center;
+    }
+    
+    .rendered-comment__container {
+        width: 100%;
+    }
+
+    .enable_scroll-y {
+        height: 27vw;
+    }
+
+    .fullname-msg_content {
+        margin-left: .4rem;
+    }
+
+    .fullname-comment__container {
+        padding: .5rem .65rem .5rem .65rem;
+        border-radius: 16px;
+        margin-left: 0;
+    }
+
+    .msgs-box_container {
+        width: 90vw;
+        margin-left: 0;
+    }
+
+    .form-buttons__container {
+        width: 94%;
+        height: 4rem;
+    }
+
+    .form-buttons__container textarea {
+        width: 95%;
+        height: 5rem;
+        padding: 0.4rem 0.75rem;
+        margin-top: 1rem;
+        margin-left: .6rem;
+    }
+
+    .form_image-input__container {
+        width: 97%;
+        margin-left: .87rem;
+    }
+
+    .more_options__container {
+        height: 100vh;
+        z-index: 1;
+    }
+    
+    .buttons-moreOptions_container {
+        padding: 0.8rem;
+    }
+
+    .deteleButton_comment,
+    .editButton_comment,
+    .hideButton_comment {
+        padding: 0.6rem 0.7rem 0.6rem 0.7rem;
+        font-size: 1rem;
+    }
+
+    .deteleButton_comment:hover,
+    .editButton_comment:hover,
+    .hideButton_comment:hover {
+        background: none;
+    }
+
+    .deteleButton_comment > span {
+        font-size: 1.5rem;
+    }
+
+    .editButton_comment > span,
+    .hideButton_comment > span {
+        font-size: 1.4rem;
+    }    
+
+    .fullname-userLikes_container {
+        margin-left: -0.5rem;
+    }
+    
+    .title_I-like {
+        font-size: 1.1rem;
+    }
+    
+    .text_like-fullname {
+        font-size: 0.8rem;
+        line-height: 15px;
+    }
+    
+    .icon-cantLikes_content {
+        margin-bottom: 0.3rem;
+    }
+    
+    .icon-like {
+        font-size: .9rem;
+    }
+    
+    .text-cantLikes {
+        font-size: 1rem;
+    }
+
+    .small_profile_photo {
+        margin-left: 0;
+        position: relative;
+        left: .13rem;
+        bottom: .4rem;
+    }
+
+    .small_profile_photo img,
+    .profilePhoto-comment_content img {
+        width: 2.1rem;
+        height: 2.1rem;
+    }
+
+    .smallProfilePicture_comment {
+        margin-left: 0rem;
+    }
+
+    .smallProfilePicture_comment:hover::before {
+        display: none;
+    }
+
+    .close_icon {
+        left: 1vw;
+    }
+    
+    .close_icon:hover {
+        background: none;
+    }
+}
+
+@media only screen and (min-width: 426px) and (max-width: 800px) {
+    .form-buttons__container {
+        width: 94%;
+    }
+
+    .reactions-container {
+        padding-left: 5vw;
+        padding-right: 5vw;
+    }
+    
+    .reactions-container button {
+        padding: .4rem 12vw .4rem 12vw;
+    }
+
+    .enable_scroll-y {
+        height: 15vw !important;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 425px) {
+
+    .full-image_container {
+        width: 16rem;
+        margin: auto;
+    }
+
+    .full_image {
+        width: 16rem;
+    }
+
+    .image-firstName-lastName__container {
+        padding: 0.8rem 0 0.5rem;
+    }
+
+    .reactions-container {
+        padding-left: 2vw;
+        padding-right: 2vw;
+    }
+    
+    .reactions-container button {
+        padding: .4rem 9.5vw .4rem 9.5vw;
+    }
+
+    .rendered-comment__container,
+    .msgs-box_container {
+        margin-left: .15rem;
+    }
+
+    .close_icon {
+        top: .3rem;
+        left: 0.8vw;
+    }
+
+    .form_image-input__container {
+        margin-left: .2rem;
+    }
+
+    .buttons-moreOptions_container {
+        width: 18rem;
+    }
+}
