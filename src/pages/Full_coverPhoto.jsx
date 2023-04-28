@@ -13,7 +13,8 @@ import {
 import { db } from "../firebase";
 
 import default_profilePhoto_man from "../img/ghost_perfil_man.jpg";
-import default_profilePhoto_woman from "../img/ghost_perfil_woman.jpg";
+import default_profilePhoto_woman from "../img/ghost_perfil_woman.png";
+import ghost_unisex from "../img/ghost_unisex.jpg";
 
 const Full_coverPhoto = () => {
   const navigate = useNavigate();
@@ -450,6 +451,8 @@ const Full_coverPhoto = () => {
                           : user_doc.image.url_photo === "" &&
                             user_doc.gender === "female"
                           ? default_profilePhoto_woman
+                          : user_doc.gender === ""
+                          ? ghost_unisex
                           : user_doc.image.url_photo
                       }
                       style={{

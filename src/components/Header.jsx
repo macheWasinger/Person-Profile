@@ -8,7 +8,9 @@ import { db } from "../firebase";
 
 import logoPP from "../video/logo_PP-4.mp4";
 import default_profilePhoto_man from "../img/ghost_perfil_man.jpg";
-import default_profilePhoto_woman from "../img/ghost_perfil_woman.jpg";
+import default_profilePhoto_woman from "../img/ghost_perfil_woman.png";
+
+import ghost_unisex from "../img/ghost_unisex.jpg";
 
 const Header = () => {
   const provider = useContext(AppContext);
@@ -177,6 +179,8 @@ const Header = () => {
                 : userData.image.url_photo === "" &&
                   userData.gender === "female"
                 ? default_profilePhoto_woman
+                : userData.gender === ""
+                ? ghost_unisex
                 : userData.image.url_photo
             }
             alt=""
@@ -196,6 +200,8 @@ const Header = () => {
                       : userData.image.url_photo === "" &&
                         userData.gender === "female"
                       ? default_profilePhoto_woman
+                      : userData.gender === ""
+                      ? ghost_unisex
                       : userData.image.url_photo
                   }
                   style={{ width: "2rem", height: "2rem", borderRadius: "50%" }}

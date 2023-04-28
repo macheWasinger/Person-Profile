@@ -1,5 +1,4 @@
 {
-  "homepage": "https://macheWasinger.github.io/person-profile",
   "name": "person_profile",
   "version": "0.1.0",
   "private": true,
@@ -11,7 +10,6 @@
     "bootstrap": "^5.2.2",
     "browser-image-compression": "^2.0.2",
     "firebase": "^9.17.1",
-    "gh-pages": "^5.0.0",
     "js-base64": "^3.7.2",
     "md5": "^2.3.0",
     "nanoid": "^3.3.6",

@@ -19,7 +19,10 @@ import Update_coverPhoto from "../components/Update_coverPhoto";
 /****** IMPORT THE IMAGES ******/
 
 import default_profilePhoto_man from "../img/ghost_perfil_man.jpg";
-import default_profilePhoto_woman from "../img/ghost_perfil_woman.jpg";
+
+import default_profilePhoto_woman from "../img/ghost_perfil_woman.png";
+
+import ghost_unisex from "../img/ghost_unisex.jpg";
 /*-----------------------------------------------------*/
 
 const storage = getStorage(firebaseApp);
@@ -585,6 +588,8 @@ const User_profile = () => {
                             : user_item.image.url_photo === "" &&
                               user_item.gender === "female"
                             ? default_profilePhoto_woman
+                            : user_item.gender === ""
+                            ? ghost_unisex
                             : profile_image
                         }
                         alt=""
